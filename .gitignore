@@ -1,0 +1,30 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter metadata
+.ipynb_checkpoints/
+
+# Ignore model weight files
+/models/*.h5
+/models/*.keras
+
+# Ignore History & serialization files
+*.pkl
+*.joblib
+*.sav
+
+# Ignore dataset
+/data/
+
+# Ignore logs, outputs, and results
+*.log
+*.csv
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore environment files 
+.env
+.venv/
