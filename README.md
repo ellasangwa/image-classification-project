@@ -2,10 +2,6 @@
 
 # Natural Scenes Classification Using CNNs
 
-<p align="center">
-  <img src="assets/banner.png" alt="Confusion Matrix Collage" width="100%" />
-</p>
-
 This project explores the use of convolutional neural networks to classify natural scene images into six categories. It begins with building a custom CNN model to handle this multiclass image classification task, then compares it to a pretrained VGG16 model. The goal is to evaluate trade-offs between custom and transfer learning approaches in terms of accuracy, generalization, training time, and architectural flexibility, all in the context of real-world data.
 
 ## Dataset Description
